@@ -200,7 +200,6 @@ section {
 /*Scroller for section__text__p2*/
 .section__text__p2 {
   height: 1.2em;
-  margin-left: 5em;
   overflow: hidden;
   line-height: 1.2em;
   position: relative;
