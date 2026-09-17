@@ -8,7 +8,7 @@ Reviewed on 17 September 2026. Public records and Aaron's supplied brief support
 - [Existing résumé](https://aaron-thomas-blessen.github.io/Portfolio/assets/Resume.pdf): education dates, 2024 GATE result, 2024 paper title/award, Oct 2024 ISRO start, May–July 2024 Intel training, CodeCrypt contribution, Cryptic Canvas, and Networkk. An unchanged local copy is included as `public/documents/aaron-blessen-existing-resume.pdf`.
 - [GitHub profile](https://github.com/Aaron-Thomas-Blessen/): public repository ownership/listing. Repository creation dates were deliberately not converted into project completion dates.
 - [LinkedIn](https://www.linkedin.com/in/aaron-blessen/): exact link supplied by Aaron. Profile content could not be independently retrieved; no additional claims were inferred from it.
-- Portrait: the actual `assets/pic.jpg` from the existing portfolio repository. The CSS presents it in monochrome; the underlying photo is unchanged.
+- Portrait: the actual `assets/pic1.jpg` from the existing portfolio repository. The CSS presents it in monochrome; the underlying photo is unchanged.
 - Original portfolio source snapshot: commit `b6f88bb`, with the original page and styling preserved under `legacy/`.
 
 ## Projects
