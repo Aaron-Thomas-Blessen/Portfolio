@@ -221,3 +221,4 @@ No Lighthouse score, employer validation, external-demo uptime guarantee, or cur
 - **Old social image:** rebuild and redeploy, then wait for the social platform's cached preview to refresh.
 - **JSON build error:** check quotes, commas, and array/object brackets around your last edit.
 - **A demo is down:** update its link in `src/content.json` or leave it blank; the site will show an honest placeholder.
+
