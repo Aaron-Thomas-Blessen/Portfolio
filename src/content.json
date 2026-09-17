@@ -1,0 +1,943 @@
+{
+  "site": {
+    "origin": "https://aaron-thomas-blessen.github.io",
+    "basePath": "/Portfolio/",
+    "title": "Aaron Blessen — Build until it matters.",
+    "description": "Aaron Thomas Blessen — software developer, AI/ML builder and technical creator. Explore intelligent systems, backend engineering, research and the work behind them.",
+    "ogImage": "og.png",
+    "verifiedOn": "2026-09-17"
+  },
+  "person": {
+    "name": "Aaron Thomas Blessen",
+    "shortName": "Aaron Blessen",
+    "initials": "AB",
+    "roles": [
+      "Software Developer",
+      "AI/ML Builder",
+      "Backend Engineer",
+      "App Developer",
+      "Technical Creator"
+    ],
+    "location": "Kerala, India",
+    "email": "aaronthomas232200@gmail.com",
+    "emailInstruction": "REPLACE WITH: Your current public contact email. This address is listed on the existing portfolio and résumé.",
+    "github": "https://github.com/Aaron-Thomas-Blessen/",
+    "linkedin": "https://www.linkedin.com/in/aaron-blessen/",
+    "futureSocial": {
+      "label": "Future channel",
+      "url": "",
+      "instruction": "ADD SOCIAL LINK: A platform name and the full URL of a profile you actively use."
+    }
+  },
+  "hero": {
+    "kicker": "SOFTWARE / INTELLIGENCE / INTENT",
+    "headline": ["BUILD UNTIL", "IT MATTERS."],
+    "introduction": "I'm Aaron Blessen. I turn difficult problems into software, intelligent systems, and things people can actually use.",
+    "status": "Building / learning / becoming",
+    "portrait": {
+      "src": "images/aaron-existing.jpg",
+      "alt": "Aaron Thomas Blessen, wearing a CODE lanyard, with his arms folded",
+      "caption": "AARON THOMAS BLESSEN / EXISTING PORTRAIT",
+      "instruction": "REPLACE WITH: A professional portrait with a dark or neutral background, minimum 1200 × 1200 pixels. The existing photo is used here until you add it."
+    },
+    "resume": {
+      "label": "View Résumé",
+      "url": "documents/aaron-blessen-existing-resume.pdf",
+      "instruction": "ADD RÉSUMÉ PDF: Upload your current résumé and update this path.",
+      "note": "Existing résumé · update required"
+    },
+    "resumeReplacement": "REPLACE WITH: Your current résumé PDF. Update the ISRO end date, education status, leadership dates, and Hackverse venue before replacing the existing version."
+  },
+  "about": {
+    "title": "THE PERSON BEHIND THE SYSTEMS",
+    "lead": ["THE CODE", "IS ONLY", "PART OF", "THE STORY."],
+    "paragraphs": [
+      "I'm Aaron Thomas Blessen, a software developer with a B.Tech background in Computer Science and Engineering. My work crosses AI/ML, backend systems, web experiences, and applications.",
+      "That path has taken me through RAG and LLM work at ISRO, cryptography at Intel Unnati, an award-winning research paper, and a runner-up hackathon project.",
+      "I've also helped build the coding community at CODE@Saintgits. The through line: understand the problem, build something concrete, and give other people something to build on."
+    ],
+    "facts": [
+      {
+        "label": "FOUNDATION",
+        "value": "Computer Science & Engineering"
+      },
+      {
+        "label": "PERSPECTIVE",
+        "value": "Research → systems → experience"
+      },
+      {
+        "label": "ROOTS",
+        "value": "Kerala, India"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "codecrypt",
+      "name": "CodeCrypt",
+      "category": "SYSTEMS / CRYPTOGRAPHY",
+      "year": "2024",
+      "accent": "green",
+      "summary": "Make cryptography something you can experiment with.",
+      "technologies": ["C", "OpenSSL", "React", "Firebase"],
+      "problem": "Encryption concepts are easier to understand when learners can work with the algorithms, keys, inputs, and outputs themselves.",
+      "contribution": {
+        "value": "Developed the cryptography simulation tool during Intel Unnati training, handled backend and Firebase integration, and contributed to documentation as part of a team.",
+        "instruction": "ADD FINAL DESCRIPTION: Specify which backend modules and integrations you personally implemented."
+      },
+      "outcome": {
+        "value": "A learning tool for exploring RSA, AES, DES, and SHA through encryption, decryption, hashing, and key-generation workflows.",
+        "instruction": "ADD RESULT: Add verified testing or user feedback if available; do not invent adoption metrics."
+      },
+      "status": {
+        "value": "",
+        "instruction": "ADD CURRENT STATUS: State whether CodeCrypt is maintained, archived, or in development, and when you last tested it."
+      },
+      "github": {
+        "label": "GitHub",
+        "url": "https://github.com/Aaron-Thomas-Blessen/CodeCrypt",
+        "instruction": "ADD REPOSITORY LINK"
+      },
+      "demo": {
+        "label": "Live demo",
+        "url": "https://codecrypt-b591f.web.app/",
+        "instruction": "ADD PROJECT DEMO",
+        "note": "Published demo link from the repository; availability may change."
+      },
+      "video": {
+        "label": "Watch demo",
+        "url": "https://youtu.be/T-Q9fzWl0Fg",
+        "instruction": "ADD DEMO VIDEO"
+      },
+      "image": {
+        "src": "",
+        "alt": "CodeCrypt encryption interface",
+        "instruction": "ADD SCREENSHOT: Capture the real CodeCrypt interface with a sample encryption workflow. Use a 1600 × 1000 WebP or JPG."
+      },
+      "dateNote": "2024 is supported by the existing résumé's May–July Intel training dates.",
+      "notes": [
+        "Built with a team. Individual ownership should be made more specific before a final case-study release.",
+        "This is an educational simulation, not a claim of a production security audit."
+      ],
+      "source": "https://github.com/Aaron-Thomas-Blessen/CodeCrypt/blob/main/README.md"
+    },
+    {
+      "id": "cryptic-canvas",
+      "name": "Cryptic Canvas",
+      "category": "AI / COMPUTER VISION",
+      "year": "2024",
+      "accent": "blue",
+      "summary": "Bring color to monochrome images and video.",
+      "technologies": ["Python", "OpenCV", "Streamlit"],
+      "problem": "Provide an accessible way to colorize black-and-white media, including uploaded files and camera input.",
+      "contribution": {
+        "value": "Developed an image and video colorization tool using Python, with a Streamlit interface and OpenCV processing.",
+        "instruction": "ADD FINAL DESCRIPTION: Clarify your exact ownership of model integration, processing, and interface work."
+      },
+      "outcome": {
+        "value": "The repository documents image uploads, image links, video uploads, and live camera colorization workflows.",
+        "instruction": "ADD RESULT: Include a reproducible before-and-after example and any measured processing time."
+      },
+      "status": {
+        "value": "",
+        "instruction": "ADD CURRENT STATUS: State whether the app is maintained and when the demo last worked."
+      },
+      "github": {
+        "label": "GitHub",
+        "url": "https://github.com/Aaron-Thomas-Blessen/CrypticCanvas",
+        "instruction": "ADD REPOSITORY LINK"
+      },
+      "demo": {
+        "label": "Live demo",
+        "url": "https://main--cryptic-canvas.netlify.app/",
+        "instruction": "ADD PROJECT DEMO",
+        "note": "Existing portfolio demo URL; availability may change."
+      },
+      "video": {
+        "label": "Watch demo",
+        "url": "https://drive.google.com/file/d/18SRwKCNDd6M_pewOTV-dXU-WS4er2ouT/view",
+        "instruction": "ADD DEMO VIDEO"
+      },
+      "image": {
+        "src": "",
+        "alt": "Cryptic Canvas real before-and-after colorization output",
+        "instruction": "ADD SCREENSHOT: Place a real monochrome input beside its actual colorized output. Include the interface; use a 1600 × 1000 image."
+      },
+      "dateNote": "Project year listed in the existing résumé.",
+      "notes": [
+        "Colorization produces inferred colors; it does not recover historically certain color information."
+      ],
+      "source": "https://github.com/Aaron-Thomas-Blessen/CrypticCanvas/blob/main/README.md"
+    },
+    {
+      "id": "skill-sync",
+      "name": "Skill Sync",
+      "category": "WEB / DECENTRALIZED SYSTEMS",
+      "year": "2024",
+      "accent": "purple",
+      "summary": "Find hackathon collaborators through verifiable skills.",
+      "technologies": ["Aptos", "Move", "JavaScript", "Petra Wallet"],
+      "problem": "Self-reported skills make it difficult to identify suitable hackathon teammates. Skill Sync explores skill verification and partner matching.",
+      "contribution": {
+        "value": "",
+        "instruction": "ADD FINAL DESCRIPTION: Add 2–3 sentences explaining the problem, what you built, your technical contribution, and the result. Separate your own work from your teammates' work."
+      },
+      "outcome": {
+        "value": "A team-built DApp associated with a Hackverse First Runner-Up result. The README describes Aptos and zero-knowledge verification workflows.",
+        "instruction": "ADD RESULT: Link the award certificate and explain which verification flows were implemented."
+      },
+      "status": {
+        "value": "",
+        "instruction": "ADD CURRENT STATUS: Confirm the state of the prototype and which network, if any, it currently uses."
+      },
+      "github": {
+        "label": "GitHub",
+        "url": "https://github.com/Aaron-Thomas-Blessen/SkillSync",
+        "instruction": "ADD REPOSITORY LINK"
+      },
+      "demo": {
+        "label": "Live demo",
+        "url": "",
+        "instruction": "ADD PROJECT DEMO: Link a working Skill Sync deployment, or describe how to run the prototype."
+      },
+      "video": {
+        "label": "Watch demo",
+        "url": "https://youtu.be/JMTFcnusVhY",
+        "instruction": "ADD DEMO VIDEO"
+      },
+      "image": {
+        "src": "",
+        "alt": "Skill Sync teammate matching interface",
+        "instruction": "ADD SCREENSHOT: Show the actual Skill Sync matching or skill-verification screen, minimum 1600 × 1000 pixels."
+      },
+      "dateNote": "2024 is listed for the hackathon in the existing résumé.",
+      "notes": [
+        "CONFIRM VENUE: Your current website and brief say VIT Chennai; the existing résumé says SRM Chennai. Add the certificate before resolving this.",
+        "This record uses the documented Aptos/Move repository named SkillSync. A separate Skill-Sync Solidity repository exists; confirm whether that is a later version."
+      ],
+      "source": "https://github.com/Aaron-Thomas-Blessen/SkillSync/blob/main/README.md"
+    },
+    {
+      "id": "smart-traffic",
+      "name": "Smart Traffic",
+      "category": "AI / MOBILITY",
+      "year": "ADD PROJECT YEAR",
+      "accent": "orange",
+      "summary": "Explore traffic systems designed to waste less time.",
+      "technologies": ["Python"],
+      "problem": "The project investigates traffic management with the aim of reducing waiting and emissions. The repository does not establish measured improvements.",
+      "contribution": {
+        "value": "",
+        "instruction": "ADD FINAL DESCRIPTION: Add 2–3 sentences explaining the problem, what you built, your technical contribution, and the result. Name the simulation or detection approach you implemented."
+      },
+      "outcome": {
+        "value": "",
+        "instruction": "ADD VERIFIED RESULT: Describe a tested scenario and its actual outcome. Include comparison conditions before adding performance claims."
+      },
+      "status": {
+        "value": "",
+        "instruction": "ADD CURRENT STATUS: Prototype, maintained, or archived; include a verified project year."
+      },
+      "github": {
+        "label": "GitHub",
+        "url": "https://github.com/Aaron-Thomas-Blessen/Smart_Traffic",
+        "instruction": "ADD REPOSITORY LINK"
+      },
+      "demo": {
+        "label": "Live demo",
+        "url": "",
+        "instruction": "ADD PROJECT DEMO: Link a working traffic simulation or recorded run. A repository link is not a live demo."
+      },
+      "video": {
+        "label": "Watch demo",
+        "url": "",
+        "instruction": "ADD DEMO VIDEO: Record 30–60 seconds of the real system operating."
+      },
+      "image": {
+        "src": "",
+        "alt": "Smart Traffic simulation screenshot",
+        "instruction": "ADD SCREENSHOT: Show the actual simulation or detection output. Label input conditions and the observed result."
+      },
+      "dateNote": "Repository creation in 2023 is not treated as a confirmed project completion date.",
+      "notes": [],
+      "source": "https://github.com/Aaron-Thomas-Blessen/Smart_Traffic/blob/main/README.md"
+    },
+    {
+      "id": "accident-location",
+      "name": "Accident Location",
+      "category": "RESEARCH / GEOSPATIAL",
+      "year": "ADD PROJECT YEAR",
+      "accent": "blue",
+      "summary": "Make road accident patterns visible and easier to investigate.",
+      "technologies": ["Python", "Data analysis", "Geospatial visualization"],
+      "problem": "Road accident data needs to be organized and visualized to help people identify locations and investigate patterns.",
+      "contribution": {
+        "value": "",
+        "instruction": "ADD FINAL DESCRIPTION: Add 2–3 sentences explaining the problem, what you built, your technical contribution, and the result. Identify your work on data cleaning, mapping, analysis, or models."
+      },
+      "outcome": {
+        "value": "The project repository documents analysis and visualization of accident locations on Indian roads, including Bangalore.",
+        "instruction": "ADD VERIFIED RESULT: Include a reproducible map and explain the data source and limitations."
+      },
+      "status": {
+        "value": "",
+        "instruction": "ADD CURRENT STATUS: Confirm the project's status, dataset version, and completion date."
+      },
+      "github": {
+        "label": "GitHub",
+        "url": "https://github.com/Aaron-Thomas-Blessen/intelunnati_TheElites",
+        "instruction": "ADD REPOSITORY LINK"
+      },
+      "demo": {
+        "label": "Live demo",
+        "url": "",
+        "instruction": "ADD PROJECT DEMO: Link an interactive map or a recorded demonstration."
+      },
+      "video": {
+        "label": "Watch demo",
+        "url": "",
+        "instruction": "ADD DEMO VIDEO: Show the real map and explain one finding in 30–60 seconds."
+      },
+      "image": {
+        "src": "",
+        "alt": "Accident Location geospatial visualization",
+        "instruction": "ADD SCREENSHOT: Export a real accident-location map. Include source attribution, a legend, and an explanation of what it shows."
+      },
+      "dateNote": "Repository creation in 2023 is not treated as a confirmed project date.",
+      "notes": [
+        "The existing résumé separately lists the 2024 award-winning paper about Bangalore and Chennai. Add the paper before asserting a specific relationship between the paper and this repository."
+      ],
+      "source": "https://github.com/Aaron-Thomas-Blessen/intelunnati_TheElites/blob/main/README.md"
+    },
+    {
+      "id": "networkk",
+      "name": "Networkk",
+      "category": "WEB / PRODUCT",
+      "year": "2024",
+      "accent": "green",
+      "summary": "Connect local skills with the people who need them.",
+      "technologies": ["React", "Firebase", "JavaScript"],
+      "problem": "People need a way to find and book local services, while service providers need to manage requests and feedback.",
+      "contribution": {
+        "value": "Developed a local-services marketplace with customer search and scheduling interfaces, and provider views for bookings, reviews, and ratings.",
+        "instruction": "ADD FINAL DESCRIPTION: Clarify your precise responsibilities and collaborators."
+      },
+      "outcome": {
+        "value": "The existing résumé describes both customer and service-provider workflows. The website source is public on GitHub.",
+        "instruction": "ADD VERIFIED RESULT: Include actual testing feedback or a working demonstration."
+      },
+      "status": {
+        "value": "",
+        "instruction": "ADD CURRENT STATUS: Confirm whether this is a prototype, an active app, or an archived project."
+      },
+      "github": {
+        "label": "GitHub",
+        "url": "https://github.com/Aaron-Thomas-Blessen/Networkk_Website",
+        "instruction": "ADD REPOSITORY LINK"
+      },
+      "demo": {
+        "label": "Live demo",
+        "url": "",
+        "instruction": "ADD PROJECT DEMO: Link the current working Networkk deployment."
+      },
+      "video": {
+        "label": "Watch demo",
+        "url": "",
+        "instruction": "ADD DEMO VIDEO: Show a customer booking and the corresponding provider workflow."
+      },
+      "image": {
+        "src": "",
+        "alt": "Networkk customer and provider interface",
+        "instruction": "ADD SCREENSHOT: Show the real service discovery and booking screens. Use a 1600 × 1000 image."
+      },
+      "dateNote": "2024 is listed in the existing résumé.",
+      "notes": [],
+      "source": "https://github.com/Aaron-Thomas-Blessen/Networkk_Website"
+    },
+    {
+      "id": "ecometer",
+      "name": "EcoMeter",
+      "category": "AI / ENERGY",
+      "year": "ADD PROJECT YEAR",
+      "accent": "orange",
+      "summary": "Turn energy consumption into information people can act on.",
+      "technologies": ["React", "Python", "WebSockets", "Firebase"],
+      "problem": "Energy usage is difficult to manage without accessible monitoring, historical views, and understandable feedback.",
+      "contribution": {
+        "value": "",
+        "instruction": "ADD FINAL DESCRIPTION: Add 2–3 sentences explaining the problem, what you built, your technical contribution, and the result. Identify your individual work within the team."
+      },
+      "outcome": {
+        "value": "The repository describes an energy dashboard, prediction workflows, alerts, and data visualization. A demo video is linked in the README.",
+        "instruction": "ADD VERIFIED RESULT: Clarify simulated versus real meter data and how predictions were evaluated."
+      },
+      "status": {
+        "value": "",
+        "instruction": "ADD CURRENT STATUS: Confirm whether the demo uses live or simulated data and whether the project is maintained."
+      },
+      "github": {
+        "label": "GitHub",
+        "url": "https://github.com/Aaron-Thomas-Blessen/EcoMeter",
+        "instruction": "ADD REPOSITORY LINK"
+      },
+      "demo": {
+        "label": "Live demo",
+        "url": "",
+        "instruction": "ADD PROJECT DEMO: Link the energy dashboard if it is deployed."
+      },
+      "video": {
+        "label": "Watch demo",
+        "url": "https://youtu.be/KL5TGdBMioo",
+        "instruction": "ADD DEMO VIDEO"
+      },
+      "image": {
+        "src": "",
+        "alt": "EcoMeter energy dashboard",
+        "instruction": "ADD SCREENSHOT: Capture the actual dashboard and clearly label any simulated readings."
+      },
+      "dateNote": "Confirm the project year; a GitHub creation timestamp is not a completion date.",
+      "notes": [],
+      "source": "https://github.com/Aaron-Thomas-Blessen/EcoMeter/blob/main/README.md"
+    },
+    {
+      "id": "raytracer",
+      "name": "RayTracer",
+      "category": "HARDWARE / CONTROL",
+      "year": "ADD PROJECT YEAR",
+      "accent": "purple",
+      "summary": "Follow the sun with a small, responsive hardware system.",
+      "technologies": ["Arduino", "C++", "LDR sensors", "Servo control"],
+      "problem": "A fixed solar-panel angle does not follow changing sunlight. This project explores automatic positioning using light sensors.",
+      "contribution": {
+        "value": "",
+        "instruction": "ADD FINAL DESCRIPTION: Add 2–3 sentences explaining the problem, what you built, your technical contribution, and the result. Specify your role in firmware, circuitry, or assembly."
+      },
+      "outcome": {
+        "value": "A documented Arduino solar-tracking prototype using two LDR sensors and a servo motor.",
+        "instruction": "ADD VERIFIED RESULT: Show a working movement sequence. Only add energy-gain figures if you measured them."
+      },
+      "status": {
+        "value": "",
+        "instruction": "ADD CURRENT STATUS: State whether the prototype is operational and add its verified build date."
+      },
+      "github": {
+        "label": "GitHub",
+        "url": "https://github.com/Aaron-Thomas-Blessen/RayTracer",
+        "instruction": "ADD REPOSITORY LINK"
+      },
+      "demo": {
+        "label": "Live demo",
+        "url": "",
+        "instruction": "ADD PROJECT DEMO: For this hardware project, a working video or build walkthrough is appropriate."
+      },
+      "video": {
+        "label": "Watch demo",
+        "url": "",
+        "instruction": "ADD DEMO VIDEO: Record the physical prototype responding to a moving light source."
+      },
+      "image": {
+        "src": "",
+        "alt": "RayTracer physical solar tracking prototype",
+        "instruction": "ADD PROJECT PHOTOGRAPH: Show the real Arduino, sensors, servo, and panel assembly. Do not use stock solar-panel imagery."
+      },
+      "dateNote": "Confirm the build year from your project records.",
+      "notes": ["This is a solar tracker, not a computer-graphics ray tracer."],
+      "source": "https://github.com/Aaron-Thomas-Blessen/RayTracer/blob/main/README.md"
+    }
+  ],
+  "receipts": [
+    {
+      "id": "gate",
+      "title": "GATE qualified",
+      "display": "GATE",
+      "year": {
+        "value": "2024",
+        "instruction": "ADD ACHIEVEMENT YEAR"
+      },
+      "organization": "GATE · Computer Science",
+      "description": "Qualified in Computer Science. The existing portfolio and résumé list a score of 511 and All India Rank 5101.",
+      "link": {
+        "label": "View scorecard",
+        "url": "https://github.com/Aaron-Thomas-Blessen/GATE/blob/main/CS24S61424013_ScoreCard.pdf",
+        "instruction": "ADD PROOF LINK"
+      },
+      "certificate": {
+        "src": "",
+        "alt": "GATE scorecard",
+        "instruction": "ADD CERTIFICATE IMAGE: Add a redacted scorecard image; hide registration numbers and other details you do not want public."
+      },
+      "note": ""
+    },
+    {
+      "id": "isro",
+      "title": "AI/ML internship",
+      "display": "ISRO",
+      "year": {
+        "value": "Oct 2024 · end date to confirm",
+        "instruction": "ADD VERIFIED INTERNSHIP DATES"
+      },
+      "organization": "ISRO · Liquid Propulsion Systems Centre",
+      "description": "Worked on RAG/LLM development with LLaMA, including the selection of embedding models and retrieval representations.",
+      "link": {
+        "label": "View certificate",
+        "url": "",
+        "instruction": "ADD PROOF LINK: Link a shareable internship certificate or approved public summary."
+      },
+      "certificate": {
+        "src": "",
+        "alt": "ISRO internship certificate",
+        "instruction": "ADD CERTIFICATE IMAGE: Upload a public, shareable internship certificate."
+      },
+      "note": "Historical internship. The existing website describes it as completed; the older résumé still says Present. Confirm the end date."
+    },
+    {
+      "id": "paper",
+      "title": "Best Paper Award",
+      "display": "RESEARCH",
+      "year": {
+        "value": "2024",
+        "instruction": "ADD PAPER YEAR"
+      },
+      "organization": "International Conference on Smart Cyber Physical Systems",
+      "description": "Co-authored “Data Visualization of Accident Blackspots on Indian Roads—A Case Study on Bangalore and Chennai.” The existing résumé lists a Best Paper Award.",
+      "link": {
+        "label": "Read the paper",
+        "url": "",
+        "instruction": "ADD PROOF LINK: Link the published paper, DOI, or conference proceedings."
+      },
+      "certificate": {
+        "src": "",
+        "alt": "Best Paper Award certificate",
+        "instruction": "ADD CERTIFICATE IMAGE: Upload the award certificate or official conference announcement."
+      },
+      "note": "ADD PAPER PDF: Upload the version you are permitted to share and confirm the final published title."
+    },
+    {
+      "id": "hackverse",
+      "title": "First Runner-Up",
+      "display": "HACKVERSE",
+      "year": {
+        "value": "2024",
+        "instruction": "ADD EVENT YEAR"
+      },
+      "organization": "Hackverse · VIT Chennai (venue to confirm)",
+      "description": "A team result for Skill Sync, the decentralized hackathon-partner matching project.",
+      "link": {
+        "label": "View award",
+        "url": "",
+        "instruction": "ADD PROOF LINK: Link the Hackverse result or certificate."
+      },
+      "certificate": {
+        "src": "",
+        "alt": "Hackverse First Runner-Up certificate",
+        "instruction": "ADD CERTIFICATE IMAGE: Upload the result certificate with the event and host clearly visible."
+      },
+      "note": "CONFIRM VENUE: Current website and brief say VIT Chennai; existing résumé says SRM Chennai."
+    },
+    {
+      "id": "skill-sync",
+      "title": "Skill Sync",
+      "display": "TEAMWORK",
+      "year": {
+        "value": "2024",
+        "instruction": "ADD PROJECT YEAR"
+      },
+      "organization": "Hackverse project",
+      "description": "Aptos, Move, and Petra Wallet brought together in a team-built DApp exploring verified skills and collaborator discovery.",
+      "link": {
+        "label": "View project evidence",
+        "url": "https://github.com/Aaron-Thomas-Blessen/SkillSync",
+        "instruction": "ADD PROOF LINK"
+      },
+      "certificate": {
+        "src": "",
+        "alt": "Skill Sync demonstration",
+        "instruction": "ADD PROJECT DEMO: Upload a screenshot of the actual matching flow, or link a current demo."
+      },
+      "note": "This is the project behind the Hackverse award, not an additional competition win."
+    },
+    {
+      "id": "intel",
+      "title": "Industrial training",
+      "display": "INTEL",
+      "year": {
+        "value": "May–Jul 2024",
+        "instruction": "ADD TRAINING DATES"
+      },
+      "organization": "Intel Unnati Industrial Training",
+      "description": "Built CodeCrypt with a team, combining OpenSSL and C with a React interface and Firebase integration.",
+      "link": {
+        "label": "View project evidence",
+        "url": "https://github.com/Aaron-Thomas-Blessen/CodeCrypt",
+        "instruction": "ADD PROOF LINK"
+      },
+      "certificate": {
+        "src": "",
+        "alt": "Intel Unnati training certificate",
+        "instruction": "ADD CERTIFICATE IMAGE: Upload the training certificate. The repository supports the project, not the credential by itself."
+      },
+      "note": "Training dates and individual backend contribution are listed in the existing résumé."
+    },
+    {
+      "id": "code",
+      "title": "Leadership through building",
+      "display": "CODE",
+      "year": {
+        "value": "",
+        "instruction": "ADD LEADERSHIP YEARS: Enter verified start and end dates."
+      },
+      "organization": "CODE@Saintgits",
+      "description": "Technical and community involvement in the college coding club, including collaborative workshops, webinars, and hackathons.",
+      "link": {
+        "label": "View leadership proof",
+        "url": "",
+        "instruction": "ADD PROOF LINK: Link an official club announcement, event report, or role certificate."
+      },
+      "certificate": {
+        "src": "",
+        "alt": "CODE at Saintgits leadership evidence",
+        "instruction": "ADD CERTIFICATE IMAGE: Add a role certificate or a real photograph from an event you helped organize."
+      },
+      "note": "CONFIRM ROLE AND DATES: The website says Core Committee; the résumé says President. Neither is presented as a current position."
+    }
+  ],
+  "capabilities": [
+    {
+      "title": "AI/ML & intelligent systems",
+      "short": "From data to useful behavior.",
+      "build": "Retrieval workflows, computer-vision tools, and experiments that connect models with real interfaces.",
+      "tools": ["Python", "LLaMA", "RAG", "OpenCV"],
+      "problem": "Finding relevant information and making unstructured inputs useful.",
+      "evidence": "ISRO internship · Cryptic Canvas",
+      "future": {
+        "value": "",
+        "instruction": "ADD FUTURE PROOF: A permitted RAG architecture diagram, retrieval evaluation, or reproducible model experiment."
+      }
+    },
+    {
+      "title": "Backend architecture",
+      "short": "The work beneath the interface.",
+      "build": "Application logic, data integration, and backend workflows that make a product function.",
+      "tools": ["C", "OpenSSL", "Firebase", "SQL"],
+      "problem": "Connecting storage, processing, and user actions with understandable interfaces between them.",
+      "evidence": "CodeCrypt backend and Firebase integration",
+      "future": {
+        "value": "",
+        "instruction": "ADD FUTURE PROOF: A system diagram and a specific reliability or performance decision you made."
+      }
+    },
+    {
+      "title": "Application development",
+      "short": "An idea someone can use.",
+      "build": "Interactive application workflows, prototypes, and interfaces that connect users with a working system.",
+      "tools": ["Flutter", "React", "Firebase"],
+      "problem": "Turning a task into a clear sequence of actions, feedback, and results.",
+      "evidence": "Existing portfolio lists Flutter · Networkk application work",
+      "future": {
+        "value": "",
+        "instruction": "ADD FUTURE PROOF: Link a working mobile app and identify the screens and logic you implemented."
+      }
+    },
+    {
+      "title": "Web development",
+      "short": "Interfaces with a job to do.",
+      "build": "Responsive web experiences, customer flows, and dashboards connected to application data.",
+      "tools": ["React", "JavaScript", "HTML", "CSS"],
+      "problem": "Helping people find, understand, and act on information without friction.",
+      "evidence": "Networkk · CodeCrypt · EcoMeter",
+      "future": {
+        "value": "",
+        "instruction": "ADD FUTURE PROOF: Show one complete user flow and the reasoning behind its design."
+      }
+    },
+    {
+      "title": "Research & technical problem-solving",
+      "short": "Ask better questions. Test the answer.",
+      "build": "Data analysis, visualizations, and technical investigations with a clear question behind them.",
+      "tools": ["Python", "Data analysis", "Geospatial visualization"],
+      "problem": "Finding structure in messy data and communicating what the evidence actually supports.",
+      "evidence": "Award-winning accident-blackspot paper · Accident Location",
+      "future": {
+        "value": "",
+        "instruction": "ADD FUTURE PROOF: Link the paper, dataset methodology, and your exact research contribution."
+      }
+    },
+    {
+      "title": "Product thinking",
+      "short": "Start with the reason it should exist.",
+      "build": "Problem-led prototypes for learning cryptography, finding services, and matching collaborators.",
+      "tools": ["Prototyping", "User flows", "Technical trade-offs"],
+      "problem": "Choosing a useful problem, then shaping the smallest working experience around it.",
+      "evidence": "CodeCrypt · Networkk · Skill Sync",
+      "future": {
+        "value": "",
+        "instruction": "ADD FUTURE PROOF: Share a design decision, an actual user insight, and what you changed because of it."
+      }
+    },
+    {
+      "title": "Leadership & collaboration",
+      "short": "Build the thing. Bring people with you.",
+      "build": "Team projects, technical events, and spaces where other people can learn and contribute.",
+      "tools": ["Git", "Documentation", "Workshops"],
+      "problem": "Helping a team share context, divide work, and turn separate contributions into a coherent result.",
+      "evidence": "CODE@Saintgits · hackathon and training teams",
+      "future": {
+        "value": "",
+        "instruction": "ADD FUTURE PROOF: Name an event you led, your exact responsibility, and a verifiable outcome."
+      }
+    }
+  ],
+  "missions": [
+    {
+      "label": "01 / LEARNING",
+      "title": {
+        "value": "",
+        "instruction": "ADD CURRENT LEARNING"
+      },
+      "detail": {
+        "value": "",
+        "instruction": "Replace this with one specific current skill or research direction. Include what you are doing to learn it."
+      }
+    },
+    {
+      "label": "02 / BUILDING",
+      "title": {
+        "value": "",
+        "instruction": "ADD CURRENT BUILD"
+      },
+      "detail": {
+        "value": "",
+        "instruction": "Replace this with one specific current project. Name the next working milestone."
+      }
+    },
+    {
+      "label": "03 / OBSESSING OVER",
+      "title": {
+        "value": "",
+        "instruction": "ADD THE PROBLEM"
+      },
+      "detail": {
+        "value": "",
+        "instruction": "Replace this with one specific problem you are currently obsessed with and why it matters."
+      }
+    },
+    {
+      "label": "04 / UP NEXT",
+      "title": {
+        "value": "",
+        "instruction": "ADD THE NEXT IDEA"
+      },
+      "detail": {
+        "value": "",
+        "instruction": "Replace this with one specific thing you want to build next and who it would help."
+      }
+    },
+    {
+      "label": "05 / TECHNICAL FOCUS",
+      "title": {
+        "value": "",
+        "instruction": "ADD CURRENT FOCUS"
+      },
+      "detail": {
+        "value": "",
+        "instruction": "Replace this with one specific technical focus: a system, technique, or engineering question."
+      }
+    },
+    {
+      "label": "06 / LONG GAME",
+      "title": {
+        "value": "",
+        "instruction": "ADD LONG-TERM GOAL"
+      },
+      "detail": {
+        "value": "",
+        "instruction": "Replace this with one specific personal long-term goal and what progress would look like."
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2021–2025",
+      "title": "The computer science foundation.",
+      "category": "EDUCATION",
+      "description": "B.Tech in Computer Science and Engineering, Saintgits College of Engineering. Dates are listed in the existing résumé.",
+      "note": "CONFIRM: Final degree status and graduation date.",
+      "pending": false
+    },
+    {
+      "date": "2024",
+      "title": "Ideas become working systems.",
+      "category": "TECHNICAL PROJECTS",
+      "description": "Cryptic Canvas and Networkk are listed as 2024 projects in the résumé.",
+      "note": "ADD EXACT DATES if you want to sequence individual project milestones.",
+      "pending": false
+    },
+    {
+      "date": "2024",
+      "title": "A result beyond the repository.",
+      "category": "QUALIFICATION / RESEARCH",
+      "description": "GATE qualification and a Best Paper Award for the accident-blackspot research paper.",
+      "note": "Same-year milestones are grouped; their order within 2024 is not established.",
+      "pending": false
+    },
+    {
+      "date": "2024",
+      "title": "Build together. Test the idea.",
+      "category": "COMPETITION",
+      "description": "First Runner-Up at Hackverse with Skill Sync.",
+      "note": "CONFIRM: Exact date and VIT/SRM venue discrepancy.",
+      "pending": false
+    },
+    {
+      "date": "MAY–JUL 2024",
+      "title": "Cryptography, made interactive.",
+      "category": "INDUSTRIAL TRAINING",
+      "description": "Intel Unnati training and the CodeCrypt team project.",
+      "note": "Dates from the existing résumé.",
+      "pending": false
+    },
+    {
+      "date": "OCT 2024 / END TBC",
+      "title": "Intelligence meets retrieval.",
+      "category": "INTERNSHIP",
+      "description": "AI/ML internship at ISRO LPSC involving a RAG system and LLaMA.",
+      "note": "ADD END DATE: This is historical experience, not a claim of current employment.",
+      "pending": false
+    },
+    {
+      "date": "ADD VERIFIED DATES",
+      "title": "A community worth contributing to.",
+      "category": "LEADERSHIP",
+      "description": "Technical involvement with CODE@Saintgits.",
+      "note": "ADD ROLE AND YEARS: Resolve Core Committee versus President using a dated record. Placement here does not imply chronological order.",
+      "pending": true
+    },
+    {
+      "date": "NOW / ADD UPDATE DATE",
+      "title": "The next version is in progress.",
+      "category": "CURRENT WORK",
+      "description": "ADD CURRENT WORK: Name your current project, role, or research direction and the next milestone.",
+      "note": "Replace this with verified, up-to-date information.",
+      "pending": true
+    },
+    {
+      "date": "NEXT",
+      "title": "Leave room for something bigger.",
+      "category": "FUTURE DIRECTION",
+      "description": "ADD FUTURE DIRECTION: State one specific goal as an intention, not an achievement.",
+      "note": "Aspirations belong here; completed work belongs above.",
+      "pending": true
+    }
+  ],
+  "archive": [
+    {
+      "title": "The work, in motion.",
+      "type": "PROJECT VIDEO",
+      "description": "Add a 30–60 second video showing a real product working, with one clear user journey.",
+      "link": {
+        "label": "Play video",
+        "url": "",
+        "instruction": "ADD PROJECT VIDEO"
+      }
+    },
+    {
+      "title": "A product you can try.",
+      "type": "PRODUCT DEMO",
+      "description": "Add a working demo URL and a short explanation of what visitors should try first.",
+      "link": {
+        "label": "Open demo",
+        "url": "",
+        "instruction": "ADD PRODUCT DEMO"
+      }
+    },
+    {
+      "title": "The thinking behind the build.",
+      "type": "TECHNICAL ARTICLE",
+      "description": "Add a technical article explaining one problem, your decisions, and what you learned.",
+      "link": {
+        "label": "Read article",
+        "url": "",
+        "instruction": "ADD ARTICLE LINK"
+      }
+    },
+    {
+      "title": "The paper. The evidence.",
+      "type": "RESEARCH PAPER",
+      "description": "Add a PDF research paper or an official proceedings link, plus its title and publication date.",
+      "link": {
+        "label": "Read paper",
+        "url": "",
+        "instruction": "ADD RESEARCH PAPER PDF"
+      }
+    },
+    {
+      "title": "Credentials, on record.",
+      "type": "CERTIFICATE",
+      "description": "Add a PDF certificate or legible certificate image. Redact personal identifiers before publication.",
+      "link": {
+        "label": "View certificate",
+        "url": "",
+        "instruction": "ADD CERTIFICATE PDF"
+      }
+    },
+    {
+      "title": "Ideas, out loud.",
+      "type": "TALK",
+      "description": "Add a talk recording or slide deck with the event name, date, and your specific topic.",
+      "link": {
+        "label": "Watch talk",
+        "url": "",
+        "instruction": "ADD TALK RECORDING"
+      }
+    },
+    {
+      "title": "The pitch under pressure.",
+      "type": "HACKATHON PRESENTATION",
+      "description": "Add the actual pitch deck or recorded presentation from a hackathon, with team credits.",
+      "link": {
+        "label": "View presentation",
+        "url": "",
+        "instruction": "ADD HACKATHON DECK"
+      }
+    },
+    {
+      "title": "Before the polished version.",
+      "type": "BEHIND THE SCENES",
+      "description": "Add a real development photograph, prototype recording, or short note about a difficult iteration.",
+      "link": {
+        "label": "View build notes",
+        "url": "",
+        "instruction": "ADD DEVELOPMENT STORY"
+      }
+    },
+    {
+      "title": "A useful introduction.",
+      "type": "PRESS KIT",
+      "description": "Add a ZIP or PDF containing a professional portrait, short bio, approved project images, and contact details.",
+      "link": {
+        "label": "Download press kit",
+        "url": "",
+        "instruction": "ADD PRESS KIT"
+      }
+    },
+    {
+      "title": "The next receipt.",
+      "type": "AWARD / ANNOUNCEMENT",
+      "description": "Add a future award or announcement only after it happens. Include the date and original source.",
+      "link": {
+        "label": "Read announcement",
+        "url": "",
+        "instruction": "ADD VERIFIED ANNOUNCEMENT"
+      }
+    }
+  ],
+  "testimonial": {
+    "value": "",
+    "instruction": "ADD TESTIMONIAL: Use an approved, verbatim quote from someone you worked with. Include their name, role, context, and permission to publish. Do not write one on their behalf."
+  },
+  "contact": {
+    "headline": ["MAKE SOMETHING", "WORTH", "REMEMBERING."],
+    "copy": "If you're building something ambitious, technically difficult, or genuinely useful, I want to hear about it.",
+    "subject": "Let's build something worth remembering"
+  }
+}
