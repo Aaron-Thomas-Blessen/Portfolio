@@ -90,7 +90,7 @@
       },
       "status": {
         "value": "",
-        "instruction": "CodeCrypt is completed and deployed. The last test was conducted in August 2025."
+        "instruction": "CodeCrypt is completed and deployed but not actively maintained. The last test was conducted in August 2025."
       },
       "github": {
         "label": "GitHub",
@@ -113,7 +113,7 @@
         "alt": "CodeCrypt encryption interface",
         "instruction": "ADD SCREENSHOT: Capture the real CodeCrypt interface with a sample encryption workflow. Use a 1600 × 1000 WebP or JPG."
       },
-      "dateNote": "",
+      "dateNote": "Project year listed in the existing résumé.",
       "notes": [
         "This is an educational simulation, not a claim of a production security audit."
       ],
@@ -138,7 +138,7 @@
       },
       "status": {
         "value": "",
-        "instruction": "ADD CURRENT STATUS: State whether the app is maintained and when the demo last worked."
+        "instruction": "Cryptic Canvas is completed and deployed but not actively maintained. The last test was conducted in May 2025."
       },
       "github": {
         "label": "GitHub",
@@ -153,11 +153,11 @@
       },
       "video": {
         "label": "Watch demo",
-        "url": "https://drive.google.com/file/d/18SRwKCNDd6M_pewOTV-dXU-WS4er2ouT/view",
+        "url": "https://youtu.be/7P3Bcs7BKaY",
         "instruction": "ADD DEMO VIDEO"
       },
       "image": {
-        "src": "",
+        "src": "/images/canvas.png",
         "alt": "Cryptic Canvas real before-and-after colorization output",
         "instruction": "ADD SCREENSHOT: Place a real monochrome input beside its actual colorized output. Include the interface; use a 1600 × 1000 image."
       },
@@ -177,7 +177,7 @@
       "technologies": ["Aptos", "Move", "JavaScript", "Petra Wallet"],
       "problem": "Self-reported skills make it difficult to identify suitable hackathon teammates. Skill Sync explores skill verification and partner matching.",
       "contribution": {
-        "value": "",
+        "value": "Created and Designed the UI/UX. Connected Petra Wallet to the Aptos blockchain. Developed the front-end using JavaScript and React.",
         "instruction": "ADD FINAL DESCRIPTION: Add 2–3 sentences explaining the problem, what you built, your technical contribution, and the result. Separate your own work from your teammates' work."
       },
       "outcome": {
@@ -186,7 +186,7 @@
       },
       "status": {
         "value": "",
-        "instruction": "ADD CURRENT STATUS: Confirm the state of the prototype and which network, if any, it currently uses."
+        "instruction": "Skill Sync is archived and no longer maintained. UI can be run in local and it can be connected to the Aptos network using the Petra Wallet. The last test was conducted in 2024."
       },
       "github": {
         "label": "GitHub",
@@ -194,8 +194,8 @@
         "instruction": "ADD REPOSITORY LINK"
       },
       "demo": {
-        "label": "Live demo",
-        "url": "",
+        "label": "Demo video",
+        "url": "https://youtu.be/ZlwH5akUA8k",
         "instruction": "ADD PROJECT DEMO: Link a working Skill Sync deployment, or describe how to run the prototype."
       },
       "video": {
@@ -204,14 +204,13 @@
         "instruction": "ADD DEMO VIDEO"
       },
       "image": {
-        "src": "",
+        "src": "/images/skillsync.png",
         "alt": "Skill Sync teammate matching interface",
         "instruction": "ADD SCREENSHOT: Show the actual Skill Sync matching or skill-verification screen, minimum 1600 × 1000 pixels."
       },
       "dateNote": "2024 is listed for the hackathon in the existing résumé.",
       "notes": [
-        "CONFIRM VENUE: Your current website and brief say VIT Chennai; the existing résumé says SRM Chennai. Add the certificate before resolving this.",
-        "This record uses the documented Aptos/Move repository named SkillSync. A separate Skill-Sync Solidity repository exists; confirm whether that is a later version."
+        "The project was build under a day for the Hackverse hackathon in SRM Chennai. We received a First Runner-Up award for the project."
       ],
       "source": "https://github.com/Aaron-Thomas-Blessen/SkillSync/blob/main/README.md"
     },
@@ -352,51 +351,7 @@
       "notes": [],
       "source": "https://github.com/Aaron-Thomas-Blessen/Networkk_Website"
     },
-    {
-      "id": "ecometer",
-      "name": "EcoMeter",
-      "category": "AI / ENERGY",
-      "year": "ADD PROJECT YEAR",
-      "accent": "orange",
-      "summary": "Turn energy consumption into information people can act on.",
-      "technologies": ["React", "Python", "WebSockets", "Firebase"],
-      "problem": "Energy usage is difficult to manage without accessible monitoring, historical views, and understandable feedback.",
-      "contribution": {
-        "value": "",
-        "instruction": "ADD FINAL DESCRIPTION: Add 2–3 sentences explaining the problem, what you built, your technical contribution, and the result. Identify your individual work within the team."
-      },
-      "outcome": {
-        "value": "The repository describes an energy dashboard, prediction workflows, alerts, and data visualization. A demo video is linked in the README.",
-        "instruction": "ADD VERIFIED RESULT: Clarify simulated versus real meter data and how predictions were evaluated."
-      },
-      "status": {
-        "value": "",
-        "instruction": "ADD CURRENT STATUS: Confirm whether the demo uses live or simulated data and whether the project is maintained."
-      },
-      "github": {
-        "label": "GitHub",
-        "url": "https://github.com/Aaron-Thomas-Blessen/EcoMeter",
-        "instruction": "ADD REPOSITORY LINK"
-      },
-      "demo": {
-        "label": "Live demo",
-        "url": "",
-        "instruction": "ADD PROJECT DEMO: Link the energy dashboard if it is deployed."
-      },
-      "video": {
-        "label": "Watch demo",
-        "url": "https://youtu.be/KL5TGdBMioo",
-        "instruction": "ADD DEMO VIDEO"
-      },
-      "image": {
-        "src": "",
-        "alt": "EcoMeter energy dashboard",
-        "instruction": "ADD SCREENSHOT: Capture the actual dashboard and clearly label any simulated readings."
-      },
-      "dateNote": "Confirm the project year; a GitHub creation timestamp is not a completion date.",
-      "notes": [],
-      "source": "https://github.com/Aaron-Thomas-Blessen/EcoMeter/blob/main/README.md"
-    },
+    
     {
       "id": "raytracer",
       "name": "RayTracer",
@@ -745,11 +700,11 @@
       "label": "06 / LONG GAME",
       "title": {
         "value": "",
-        "instruction": "ADD LONG-TERM GOAL"
+        "instruction": "FARMING"
       },
       "detail": {
         "value": "",
-        "instruction": "Replace this with one specific personal long-term goal and what progress would look like."
+        "instruction": "I want to start a farm and grow my own food sustainable and raise my own livestock."
       }
     }
   ],
