@@ -43,8 +43,7 @@
     "resume": {
       "label": "View Résumé",
       "url": "documents/aaron-blessen-existing-resume.pdf",
-      "instruction": "ADD RÉSUMÉ PDF: Upload your current résumé and update this path.",
-      "note": "Existing résumé · update required"
+      "instruction": "ADD RÉSUMÉ PDF: Upload your current résumé and update this path."
     },
     "resumeReplacement": "REPLACE WITH: Your current résumé PDF. Update the ISRO end date, education status, leadership dates, and Hackverse venue before replacing the existing version."
   },
@@ -91,7 +90,7 @@
       },
       "status": {
         "value": "",
-        "instruction": "ADD CURRENT STATUS: State whether CodeCrypt is maintained, archived, or in development, and when you last tested it."
+        "instruction": "CodeCrypt is completed and deployed. The last test was conducted in August 2025."
       },
       "github": {
         "label": "GitHub",
@@ -110,13 +109,12 @@
         "instruction": "ADD DEMO VIDEO"
       },
       "image": {
-        "src": "",
+        "src": "/images/cryptography1.jpg",
         "alt": "CodeCrypt encryption interface",
         "instruction": "ADD SCREENSHOT: Capture the real CodeCrypt interface with a sample encryption workflow. Use a 1600 × 1000 WebP or JPG."
       },
-      "dateNote": "2024 is supported by the existing résumé's May–July Intel training dates.",
+      "dateNote": "",
       "notes": [
-        "Built with a team. Individual ownership should be made more specific before a final case-study release.",
         "This is an educational simulation, not a claim of a production security audit."
       ],
       "source": "https://github.com/Aaron-Thomas-Blessen/CodeCrypt/blob/main/README.md"

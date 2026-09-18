@@ -378,14 +378,7 @@ export default function App() {
                 ORIGIN: {content.person.location.toUpperCase()}
               </span>
               <MediaFrame asset={content.hero.portrait} hero />
-              <details className="portrait-edit">
-                <summary>
-                  <Plus size={13} />
-                  PORTRAIT / REPLACEMENT NOTES
-                </summary>
-                <p>{content.hero.portrait.caption}</p>
-                <p>{content.hero.portrait.instruction}</p>
-              </details>
+
             </div>
           </div>
           <div className="hero-bottom">
@@ -519,7 +512,7 @@ export default function App() {
                         <span>{p.status.value}</span>
                       ) : (
                         <span>
-                          ADD UPDATE <Plus size={12} />
+                          <Plus size={12} />
                         </span>
                       )}
                     </summary>
